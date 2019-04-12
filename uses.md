@@ -28,3 +28,25 @@
 - GOV.UK Verify
 - A spike into running a Ruby on Rails lambda
 - https://github.com/alphagov/rails-lambda-spike
+
+6. **Log pipeline**
+ -  Pay 
+ - Two lambdas as part of a logging pipeline, one pulls from kinesis, one from s3 
+ - https://github.com/alphagov/pay-cloudwatch-logs-s3-export
+ - https://github.com/alphagov/pay-cloudwatch-logs-s3-lambda
+ 
+7. **Cloudtrail log canary scanning**
+ - pay
+ - Periodically does a cloudtrail action, so we can check if it is not working
+ - https://github.com/alphagov/pay-cloudtrail-canary-lambda
+
+
+8. **Pay Performance platform reporting**
+ - Pay
+ - Gets information from our payments platform and posts it to performance platform
+ - https://github.com/alphagov/pay-performance-platform
+ 
+9. **Compliance tool**
+ - Pay
+ - Checks the status of an aws account and sends email report
+ - https://github.com/alphagov/pay-aws-compliance
