@@ -18,3 +18,13 @@
  - [PyJWT](https://pyjwt.readthedocs.io/en/latest/) to handle JWT from the ALB (ELBv2) with built-in authentication
  - Deployment using Concourse/Terraform
  - https://github.com/alphagov/firebreak-q1-faas
+ 
+4. **Verify Event Record Service**
+- GOV.UK Verify
+- Used to record audit events consumed from a SQS into a PG RDS database
+- https://github.com/alphagov/verify-event-recorder-service
+
+5. **Rails Lambda Spike**
+- GOV.UK Verify
+- A spike into running a Ruby on Rails lambda
+- https://github.com/alphagov/rails-lambda-spike
