@@ -28,3 +28,8 @@
 - GOV.UK Verify
 - A spike into running a Ruby on Rails lambda
 - https://github.com/alphagov/rails-lambda-spike
+
+11. **GOV.UK CSP Forwarder**
+- GOV.UK
+- Used to collect content security policy violation reports from GOV.UK pages, filter them and forward them to Sentry for logging
+- https://github.com/alphagov/govuk-csp-forwarder
