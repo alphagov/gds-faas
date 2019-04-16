@@ -28,3 +28,12 @@
 - GOV.UK Verify
 - A spike into running a Ruby on Rails lambda
 - https://github.com/alphagov/rails-lambda-spike
+
+6. **Registers CloudFront Lambdas**
+- GOV.UK Registers
+- Used to track API usage in Google Analytics
+- Lambda@Edge on CloudFront Viewer Requests writes to CloudWatch Logs
+- Lambda to consume aformentioned logs and send events to Google Analytics
+- Log Anonymiser anonymises CloudFront logs for GDPR compliance and long term analysis.
+- Lambda@Edge and associated Lambda to trigger a CloudFront Invalidation Request when a POST request is made
+- https://github.com/openregister/deployment/tree/master/aws/lambda
