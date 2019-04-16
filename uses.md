@@ -59,3 +59,8 @@
 - Log Anonymiser anonymises CloudFront logs for GDPR compliance and long term analysis.
 - Lambda@Edge and associated Lambda to trigger a CloudFront Invalidation Request when a POST request is made
 - https://github.com/openregister/deployment/tree/master/aws/lambd
+
+11. **GOV.UK CSP Forwarder**
+- GOV.UK
+- Used to collect content security policy violation reports from GOV.UK pages, filter them and forward them to Sentry for logging
+- https://github.com/alphagov/govuk-csp-forwarder
