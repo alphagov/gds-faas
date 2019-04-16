@@ -58,7 +58,7 @@
 - Lambda to consume aformentioned logs and send events to Google Analytics
 - Log Anonymiser anonymises CloudFront logs for GDPR compliance and long term analysis.
 - Lambda@Edge and associated Lambda to trigger a CloudFront Invalidation Request when a POST request is made
-- https://github.com/openregister/deployment/tree/master/aws/lambd
+- https://github.com/openregister/deployment/tree/master/aws/lambda
 
 11. **GOV.UK CSP Forwarder**
 - GOV.UK
